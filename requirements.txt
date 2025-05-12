@@ -1,6 +1,8 @@
 fastapi
 uvicorn
+flask
 pandas
 numpy
 joblib
 xgboost
+scikit-learn>=1.0
