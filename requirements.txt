@@ -1,8 +1,9 @@
-fastapi
-gunicorn
 flask
+pymongo
+gunicorn
 pandas
-numpy
 joblib
+numpy
+scikit-learn
 xgboost
-scikit-learn>=1.0
+flask-cors
