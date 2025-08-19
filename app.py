@@ -70,7 +70,7 @@ except Exception as e:
     raise RuntimeError("Failed to load model or scaler") from e
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=['POST' , 'GET'])
 def predict():
     try:
         logger.info("🔥 Flask server received a request")
